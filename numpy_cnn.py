@@ -11,6 +11,7 @@ try:
     from keras.utils import to_categorical
 except:
     print('keras.utils is used to convert labels to one-hot representation.')
+    sys.exit()
 
 
 class network:
